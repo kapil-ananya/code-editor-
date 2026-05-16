@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #0d0c0c;
+    color: white;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.model-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+}
+
+
+.inputBox{
+    width: 100%;
+    background-color: #141414;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.inputBox input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btnBlue{
+    background-color: #0080FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    /* margin-left: 8px; */
+    text-align: center;
+}
+
+.btnBlue:hover{
+    background-color: #0086B3;
+}
+
+.grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px;
+}
+
+.lightMode {
+    background-color: white !important;
+    color: black !important;
+}
+
+.lightMode .navbar {
+    background-color: white;
+}
+
+
+.lightMode .tabs {
+    background-color: #f7f7f7 !important;
+}
+
+.lightMode .tabs .tab div {
+    background-color: white !important;
+    color: black !important;
+}
